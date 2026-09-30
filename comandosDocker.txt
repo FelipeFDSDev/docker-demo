@@ -1,0 +1,41 @@
+1. docker --version
+   → verifica instalação
+
+2. docker info
+   → verifica Docker Engine
+
+3. dir
+   → mostra projeto
+
+4. docker build -t docker-demo .
+   → cria IMAGEM
+
+5. docker images
+   → mostra IMAGENS
+
+6. docker run -d --name docker-demo-container -p 8080:80 docker-demo
+   → cria e executa CONTAINER
+
+7. docker ps
+   → mostra containers rodando
+
+8. localhost:8080
+   → mostra aplicação
+
+9. docker stop docker-demo-container
+   → para container
+
+10. docker ps -a
+    → mostra inclusive containers parados
+
+11. docker start docker-demo-container
+    → inicia novamente
+
+12. docker logs docker-demo-container
+    → mostra logs
+
+13. docker exec -it docker-demo-container sh
+    → entra no container
+
+14. exit
+    → sai do shell
